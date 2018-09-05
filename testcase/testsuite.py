@@ -13,7 +13,6 @@ class Test_Suite(unittest.TestCase):
         tc2 = unittest.TestLoader().loadTestsFromTestCase(TestCreateSurvey)
         tc3 = unittest.TestLoader().loadTestsFromTestCase(TestStartSurvey)
         tc4=unittest.TestLoader().loadTestsFromTestCase(TestAskquestionSurvey)
-
         self.suite.addTests([tc1, tc2, tc3, tc4])
         runner = unittest.TextTestRunner()
         runner.run(self.suite)

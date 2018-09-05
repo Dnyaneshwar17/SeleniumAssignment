@@ -1,5 +1,4 @@
 from pages.StartSurvey import StartSurvey
-from utilities_config.Browser import BrowserConfig
 from pages.Login import Login
 from pages.CreateSurvey import CreateSurvey
 from pages.StartSurvey import StartSurvey
